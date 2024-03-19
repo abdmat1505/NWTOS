@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo hostnamectl set-hostname LinFreC1
+sudo hostnamectl set-hostname LinMatituC1
 
 cat <<EOF | sudo tee /etc/netplan/00-installer-config.yaml > /dev/null
 network:
