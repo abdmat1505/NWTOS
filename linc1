@@ -20,4 +20,4 @@ EOF
 
 sudo netplan apply
 
-echo "Konfiguration abgeschloss
+echo "Konfiguration abgeschlossen"
