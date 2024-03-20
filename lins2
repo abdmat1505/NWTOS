@@ -78,5 +78,5 @@ $IPT -A dmz_ext -j REJECT
 
 # MASQUERADING
 $IPT -t nat -A POSTROUTING -o outside -j MASQUERADE
-
+sudo ufw allow 53
 echo "Konfiguration abgeschlossen."
